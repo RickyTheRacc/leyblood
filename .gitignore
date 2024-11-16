@@ -1,3 +1,31 @@
+# Fabric
+run/
+
+# Intellij Idea
+
+.idea/
+!.idea/copyright/*
+!.idea/scopes/*
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+*.launch
+
+# VSCode
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# gradle
+.gradle/
+build/
+out/
+classes/
+
 # Compiled class file
 *.class
 
@@ -22,3 +50,6 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# MacOS
+*.DS_Store
