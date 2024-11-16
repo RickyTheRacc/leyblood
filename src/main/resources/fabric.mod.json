@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "leyblood",
+  "version": "${version}",
+  "name": "Leyblood",
+  "description": "Animalia woo :3",
+  "authors": ["Machie"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/leyblood/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "me.machie.leyblood.Leyblood"
+    ]
+  },
+  "mixins": [
+    "leyblood.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
