@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="Leyblood Copyright Notice" pattern="src[leyblood.main]:me.machie.leyblood..*" />
+</component>
