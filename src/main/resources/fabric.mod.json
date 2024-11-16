@@ -8,7 +8,6 @@
   "contact": {},
   "license": "All-Rights-Reserved",
   "icon": "assets/leyblood/icon.png",
-  "environment": "client",
   "entrypoints": {
     "main": [
       "me.machie.leyblood.Leyblood"
